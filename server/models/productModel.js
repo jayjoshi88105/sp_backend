@@ -7,6 +7,11 @@ const ProductSchema = new Schema({
         required: true,
         trim: true
     },
+    company: {
+        type: String,
+        required: true,
+        trim: true
+    },
     price: {
         type: String,
         required: true

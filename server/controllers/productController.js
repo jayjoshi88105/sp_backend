@@ -4,8 +4,8 @@ require('./mainController');
 
 exports.addproduct = async (req, res, next) => {
     try {
-        const { product_name, price, category } = req.body
-        const newProduct = new Product({ product_name, price, category });
+        const { product_name, company, price, category } = req.body
+        const newProduct = new Product({ product_name, company, price, category });
         await newProduct.save();
         res.json({
             data: newProduct
@@ -32,6 +32,7 @@ exports.searchproduct = async (req, res, next) => {
         let result = await Product.find({
             "$or": [
                 { product_name: { $regex: req.params.key } },
+                { company: { $regex: req.params.key } },
                 { category: { $regex: req.params.key } },
                 { price: { $regex: req.params.key } }
             ]
