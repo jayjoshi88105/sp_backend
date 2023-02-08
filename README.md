@@ -8,7 +8,8 @@
 - For Authentication JWT token is used
 
 ##  Details about some externam dependancies used
-- #### `cors` - To Manager CORS issue 
+- #### `express` - To Manage APIs
+- #### `cors` - To Manage CORS issue. It will be used as middleware
 - #### `jsonwebtoken` - To Integrate JWT token in application
 - #### `mongoose` - To Manage mongodb database. Online server is used to connect with MongoDb.
 - #### `nodemon` - To auto refresh application on any code change
