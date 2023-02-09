@@ -47,6 +47,8 @@ In the project directory, you can run:
 ### Search Product API Example 2
 ![](https://github.com/jayjoshi88105/vdocmsbackend/blob/dev/search.png)
 
-### MongoDb Interface
+### MongoDb Interface for Products Document
 ![](https://github.com/jayjoshi88105/vdocmsbackend/blob/dev/mongo.png)
-https://github.com/jayjoshi88105/vdocmsbackend/blob/dev/mongo.png
+
+### MomgoDb Interface for Users Document
+![](https://github.com/jayjoshi88105/vdocmsbackend/blob/dev/usersmongo.png)
