@@ -13,7 +13,7 @@
 - #### `jsonwebtoken` - To Integrate JWT token in application
 - #### `mongoose` - To Manage mongodb database. Online server is used to connect with MongoDb.
 - #### `nodemon` - To auto refresh application on any code change
-- #### `accesscontrol` - To manage role base authentication
+- #### `accesscontrol` - To manage role base authentication (RBAC)
 - #### `bcrypt` - To password encyption
 
 In the project directory, you can run:
