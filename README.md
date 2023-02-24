@@ -8,11 +8,12 @@
 - For Authentication JWT token is used
 
 ##  Details about some externam dependancies used
-- #### `cors` - To Manager CORS issue 
+- #### `express` - To Manage APIs
+- #### `cors` - To Manage CORS issue. It will be used as middleware
 - #### `jsonwebtoken` - To Integrate JWT token in application
 - #### `mongoose` - To Manage mongodb database. Online server is used to connect with MongoDb.
 - #### `nodemon` - To auto refresh application on any code change
-- #### `accesscontrol` - To manage role base authentication
+- #### `accesscontrol` - To manage role base authentication (RBAC)
 - #### `bcrypt` - To password encyption
 
 In the project directory, you can run:
@@ -40,5 +41,14 @@ In the project directory, you can run:
 ### Product List API
 ![](https://github.com/jayjoshi88105/vdocmsbackend/blob/dev/productlist.png)
 
-### Search Product API
+### Search Product API Example 1
 ![](https://github.com/jayjoshi88105/vdocmsbackend/blob/dev/searchproductbykeyword.png)
+
+### Search Product API Example 2
+![](https://github.com/jayjoshi88105/vdocmsbackend/blob/dev/search.png)
+
+### MongoDb Interface for Products Document
+![](https://github.com/jayjoshi88105/vdocmsbackend/blob/dev/mongo.png)
+
+### MomgoDb Interface for Users Document
+![](https://github.com/jayjoshi88105/vdocmsbackend/blob/dev/usersmongo.png)
