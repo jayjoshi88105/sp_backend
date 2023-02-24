@@ -34,6 +34,7 @@ app.use(async (req, res, next) => {
     }
 });
 
-app.use('/', routes); app.listen(PORT, () => {
+app.use('/', routes); 
+app.listen(PORT, () => {
     console.log('Server is listening on Port:', PORT)
 })
